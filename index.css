@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(image/loginbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    padding-top: 70px;
+    padding-left: 70px;
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 500;
+    font-size: 70px;
+}
+
+form{
+    margin: 20px;
+    position: absolute;
+    left: 200px;
+    /* top:20px; */
+    height: 350px;
+    width: 350px;
+    border-radius: 38px;
+    border-radius: 38px;
+    background: #fdd296;
+    box-shadow: 15px 15px 43px #c0a072,
+        -15px -15px 43px #ffffba;
+}
+
+.login input,
+button{
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 300px;
+    height: 35px;
+    color: ghostwhite;
+    background-color: #e40bb5;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 1px 1px 1px rgb(63, 63, 63);
+    text-align: center;
+    font-size: 16px;
+}
+Label{
+    padding: 0;
+    color: #490079;
+    padding-left: 140px;
+    font-weight: 500;
+    font-size: 36px;
+    font-family: "Fleur De Leah", cursive;
+}
+.login input::placeholder {
+    color: ghostwhite;
+}
+
+.login button {
+    margin-left: 25px;
+    background-color: #a60be4;
+    width: 140px;
+}
+
+.login button:hover {
+    background-color: #aa0879;
+}

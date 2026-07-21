@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="login">
+        <h1>Welcome to Wildflower & Fern</h1>
+        <form action="#">
+            <br>
+            <label for="#">Login</label><br><br>
+            <hr style="border: 1px solid #f4c482;">
+            <input type="text" placeholder="Enter your name" id="name"> <br><br>
+            <input type="password" placeholder="Enter your password" id="word"> <br><br>
+            <button type="button" onclick="valid()">Login</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+    <script>
+        function valid() {
+            var username = document.querySelector("#name").value;
+            var password = document.querySelector("#word").value;
+            if (username == "" || password == "") {
+                alert("Fill all details");
+            }
+            else {
+                alert("Logged in successfull");
+                window.location.href = "home.html";
+            }
+
+
+        }
+    </script>
+</body>
+
+</html>
