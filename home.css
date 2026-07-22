@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    font-family: "Google Sans", sans-serif;
+}
+.product{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    
+}
+.productBox {
+    margin: 20px;
+    height: 400px;
+    width: 250px;
+    background-color: #f4cac951;
+    border-radius: 170px 170px 10px 10px;
+    overflow: hidden;
+    box-shadow: 0 0 3px #D8A9A8;
+}
+
+.productBox img {
+    height: 250px;
+    width: 250px;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+}
+
+.productBox h2 {
+    margin: 10px;
+    text-align: center;
+    color: rgb(105, 0, 82);
+    font-family: "Playwrite NZ Basic", cursive;
+}
+.productBox h4{
+    margin: 15px;
+    padding: 0;
+    text-align: center;
+}
+.productBox h4 span{
+    font-size: 14px;
+    color: rgb(93, 156, 93);
+}
+
+.productBox h4 strike{
+    font-size: 14px;
+}
+.productBox button{
+    background-color: #faa1a1;
+    border-radius: 20px;
+    border: 0;
+    height: 35px;
+    width: 100px;
+    box-shadow: 0 0 3px #D8A9A8;
+    text-align: center;
+    margin-left: 75px;
+}
+.productBox button:hover{
+    background-color: #6c0505;
+    transition: 1s;
+    color: white;
+}
